@@ -7,58 +7,56 @@
 .header {
     display: grid;
     grid-template-columns: repeat(1, 200px);
-    grid-template-rows: repeat(1, 100px);
+    grid-template-rows: repeat(1, 250px);
     background-color: aqua;
 }
 
 main {
-    background-color: rgb(0, 129, 129);
+    background-color: rgb(255, 255, 255);
     display: grid;
     grid-template-columns: repeat(2);
-    grid-template-rows: repeat(1, 463px);
+    grid-template-rows: repeat(1,768px);
 
 }
 
 .mfirst-child {
     background-color: rgb(220, 255, 253);
     width: 966px;
-    height: 463px;
+    height: 500px;
 
 }
 
 .mlast-child {
     background-color: rgb(0, 41, 41);
-    width: 400px;
-    height: 463px;
-    margin-left: 966px;
-    margin-top: -463px;
+    width: 420px;
+    height: 720px;
+    margin-left: 929px;
+    margin-top: -747px;
 }
 
 .decima {
     display: grid;
     background-color: rgb(255, 0, 0);
-    height: 200px;
-    width: 800px;
-    margin-left: 88px;
+    height: 300px;
+    width: 900px;
     margin-top: 21px;
 }
 
 .debaixo1 {
     display: grid;
     background-color: rgb(66, 0, 0);
-    height: 200px;
-    width: 390px;
-    margin-left: 88px;
+    height: 400px;
+    width: 430px;
     margin-top: 21px;
 }
 
 .debaixo2 {
     display: grid;
     background-color: rgb(131, 0, 0);
-    height: 200px;
-    width: 390px;
-    margin-left: 498px;
-    margin-top: -200px;
+    height: 400px;
+    width: 430px;
+    margin-left: 470px;
+    margin-top: -400px;
 }
 
 footer {
@@ -66,4 +64,5 @@ footer {
     display: grid;
     grid-template-columns: 1;
     grid-template-rows: repeat(1, 70px);
+   
 }
